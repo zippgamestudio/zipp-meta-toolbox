@@ -1,3 +1,6 @@
 !/zipp-meta-toolbox/Assets
 !/zipp-meta-toolbox/Packages
 !/zipp-meta-toolbox/ProjectSettings
+zipp-meta-toolbox/Library/
+zipp-meta-toolbox/Logs/
+zipp-meta-toolbox/UserSettings/
