@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject soundManager;
-    public GameObject menuManager;
+    public SoundManager soundManager;
+    public MenuManager menuManager;
 }

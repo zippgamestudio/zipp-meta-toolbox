@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CoreGameObject : MonoBehaviour
+public abstract class CoreGameObject : MonoBehaviour
 {
-    GameManager gameManager;
-    void Start()
+    [HideInInspector]
+    public GameManager gameManager;
+    public virtual void Start()
     {
         gameManager=GameObject.Find("GameManager").GetComponent<GameManager>();
     }
