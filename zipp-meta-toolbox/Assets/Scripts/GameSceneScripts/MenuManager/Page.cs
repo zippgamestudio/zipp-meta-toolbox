@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Menu : CoreGameObject
+public class Page : CoreGameObject
 {
     public void GoToPage(string pageName)
     {
